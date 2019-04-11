@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    secondary:
+      max-idle: 10
+      min-idle: 5
+      test-on-borrow: false
+      password: 2110857
+      test-while-idle: true
+      time-between-eviction-runs-millis: 18800
+      validation-query: SELECT 1
+      initial-size: 5
+      driver-class-name: com.mysql.jdbc.Driver
+      max-wait: 10000
+      url: jdbc:mysql://localhost:3306/my_test?useUnicode=true&characterEncoding=utf-8
+      username: lyscharlie
+
+    primary:
+      max-idle: 10
+      min-idle: 5
+      password: 2110857
+      test-on-borrow: false
+      test-while-idle: true
+      time-between-eviction-runs-millis: 18800
+      validation-query: SELECT 1
+      initial-size: 5
+      max-wait: 10000
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/lyscharlie?useUnicode=true&characterEncoding=utf-8
+      username: lyscharlie

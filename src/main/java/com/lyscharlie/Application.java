@@ -1,13 +1,13 @@
-package com.lyscharlie.springboot2jpa;
+package com.lyscharlie;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Springboot2JpaApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Springboot2JpaApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
